@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --box-shadow1: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  --box-shadow2: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0.29 284.01L8.01 284.01L8.01 291.73L0.29 291.73z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1087.63 157.75L1119.71 157.75L1119.71 189.83L1087.63 189.83z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1168.83 23.07L1171.2 23.07L1171.2 28.88L1168.83 28.88z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M912.47 60.22 a55.54 55.54 0 1 0 111.08 0 a55.54 55.54 0 1 0 -111.08 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1193.48 453.59L1243.54 453.59L1243.54 495.89L1193.48 495.89z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1224.85 551.4L1279.41 551.4L1279.41 606.53L1224.85 606.53z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M734.65 507.85L764.66 507.85L764.66 530.69L734.65 530.69z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M557.82 252.72L576.23 252.72L576.23 256.94L557.82 256.94z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1395.47 26.48L1442.45 26.48L1442.45 73.46L1395.47 73.46z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M478.17 261.4 a29.27 29.27 0 1 0 58.54 0 a29.27 29.27 0 1 0 -58.54 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M293.83 436.49a23.2 23.2 0 1 0-45.35 9.81z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1269.32 290.05a51.98 51.98 0 1 0-100.91 25.01z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M407.79 424.5L427.11 424.5L427.11 464.12L407.79 464.12z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M279.28 245.64L279.73 245.64L279.73 246.09L279.28 246.09z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1132.22 134.84L1136.02 134.84L1136.02 138.64L1132.22 138.64z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M608 379.49 a5.02 5.02 0 1 0 10.04 0 a5.02 5.02 0 1 0 -10.04 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1174.31 312.8L1223.58 312.8L1223.58 317.03L1174.31 317.03z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1135.49 33.63 a36.48 36.48 0 1 0 72.96 0 a36.48 36.48 0 1 0 -72.96 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M940.44 289.75a46.1 46.1 0 1 0 81.11-43.84z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M406.87 369.52L439.75 369.52L439.75 422.01L406.87 422.01z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M828.05 514.83a15.26 15.26 0 1 0-21.75 21.42z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M232.11 112.16 a47.81 47.81 0 1 0 95.62 0 a47.81 47.81 0 1 0 -95.62 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M995.97 108.9 a36.14 36.14 0 1 0 72.28 0 a36.14 36.14 0 1 0 -72.28 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M955.54 379.78L993.71 379.78L993.71 417.95L955.54 417.95z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M853.37 277.07 a0.9 0.9 0 1 0 1.8 0 a0.9 0.9 0 1 0 -1.8 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1415.87 241.19a22.52 22.52 0 1 0 2.6-44.96z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M942.86 190.08L984.87 190.08L984.87 232.09L942.86 232.09z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M798.15 237.85L853.79 237.85L853.79 293.49L798.15 293.49z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M210.63 80.43L225.14 80.43L225.14 108.86L210.63 108.86z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M428.34 370.49 a13.34 13.34 0 1 0 26.68 0 a13.34 13.34 0 1 0 -26.68 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M433.27 266.07a27.76 27.76 0 1 0-55.52 0.52z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1317.77 133.62L1370.6 133.62L1370.6 186.45L1317.77 186.45z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M470.4 11.86 a25.27 25.27 0 1 0 50.54 0 a25.27 25.27 0 1 0 -50.54 0z' fill='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  border: 3px solid white;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: #1c2052;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.details {
+  border: 1px solid #c49fef;
+  border-radius: 0.5rem;
+  width: 20rem;
+  margin-right: 5rem;
+  background-color: #c49fef;
+}
+
+.sng {
+  border: 1px solid #c49fef;
+  border-radius: 0.5rem;
+  width: 20rem;
+  background-color: #c49fef;
+}
+
+.cntrl {
+  color: #7914ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cntrl div {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow2);
+}
+
+.cntrl div:nth-child(2) {
+  transform: scale(1.5);
+  background: #7914ee;
+  color: #fff;
+}
+
+.cntrl:hover {
+  cursor: pointer;
+}
+
+#progress {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #c49fef;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 7px solid #7914ee;
+  box-shadow: var(--box-shadow2);
+}
+
+#volume-range {
+  width: 30%;
+  height: 6px;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.vol {
+  color: #1c2052;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 2rem;
+  padding: 0;
+}
+li {
+  list-style: none;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
+  transition: all 200ms ease-in-out;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  font-size: 10px;
+}
+
+li:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .details,
+  .sng {
+    width: 16rem;
+    margin-left: 8rem;
+  }
+  .container {
+    justify-items: center;
+  }
+}
