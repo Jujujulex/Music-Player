@@ -19,7 +19,7 @@ let songList = [
 
   {
     path: "songs/Bob_Marley - Everythings_gonna_be_alright.mp3",
-    songName: "Everythings_gonna_be_alright",
+    songName: "All_gonna_be_alright",
     artist: "Bob_Marley",
     cover: "images/everything_gonna_be_alright.jpeg",
   },
